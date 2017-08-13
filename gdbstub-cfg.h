@@ -6,7 +6,7 @@ Enable this define if you're using the RTOS SDK. It will use a custom exception 
 and do some other magic to make everything work and compile under FreeRTOS.
 */
 #ifndef GDBSTUB_FREERTOS
-#define GDBSTUB_FREERTOS 1
+#define GDBSTUB_FREERTOS 0
 #endif
 
 /*
